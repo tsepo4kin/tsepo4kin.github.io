@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.header__title {
+  font-size: 28px;
+}
+.header__nav-menu {
+  width: 100%;
+  margin: auto 0;
+}
+.header__nav-menu__items {
+  display: flex;
+  list-style-type: none;
+}
+.header__nav-menu__item {
+  display: block;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.header__nav-menu__item:hover {
+  color: blue;
+}
+
+.topmenu:hover .submenu {
+  transition: 0.5s;
+  transform: scaleY(1);
+}
+
+.submenu {
+  position: absolute;
+  transition: 0.5s;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+}
+
+.main {
+  margin-top: 50px;
+}
+.about-me {
+  margin-left: 10px;
+  width: 50%;
+}
+.about-me__text {
+  margin-left: 40px;
+}
+.footer {
+  display: flex;
+}
+.footer-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.socials {
+  width: 20%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.socials__item_vk {
+}
+.socials__item_yt {
+}
+.socials__item_fb {
+}
+.socials__item_inst {
+}
+.footer-section__info {
+  margin-right: 10px;
+}
+.footer-section__info__text {
+}
