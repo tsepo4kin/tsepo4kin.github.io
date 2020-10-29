@@ -3,16 +3,21 @@ body {
   color: white;
 }
 .header {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 0 15px;
 }
 .header__title {
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 28px;
+  cursor: pointer;
 }
 .header__nav-menu {
-  width: 100%;
-  margin: auto 0;
+  width: 70%;
+  margin: auto 10px;
+  margin-right: 90px;
 }
 .header__nav-menu__items {
   display: flex;
@@ -22,6 +27,7 @@ body {
   display: block;
   font-size: 20px;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .header__nav-menu__item:hover {
@@ -34,23 +40,43 @@ body {
 }
 
 .submenu {
+  list-style-type: none;
   position: absolute;
   transition: 0.5s;
   transform: scaleY(0);
   transform-origin: 0 0;
 }
 
+.submenu__item {
+
+}
+
+.submenu__item a {
+  color: white;
+}
+
+.submenu__item a:hover {
+  color: blue;
+}
+
+.submenu__item a:link,a:visited,a:active {
+  text-decoration: none;
+}
+
 .main {
-  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 .about-me {
-  margin-left: 10px;
   width: 50%;
 }
 .about-me__text {
+  margin-top: 150px;
   margin-left: 40px;
 }
 .footer {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
 }
 .footer-section {
@@ -60,7 +86,6 @@ body {
 }
 .socials {
   width: 20%;
-  margin-left: 10px;
   display: flex;
   justify-content: space-between;
 }
