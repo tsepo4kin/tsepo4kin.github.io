@@ -28,10 +28,11 @@ body {
   font-size: 20px;
   margin-left: auto;
   cursor: pointer;
+  border-bottom: 3px solid white;
 }
 
 .header__nav-menu__item:hover {
-  color: blue;
+  border-color: #4DABF7;
 }
 
 .topmenu:hover .submenu {
@@ -56,7 +57,7 @@ body {
 }
 
 .submenu__item a:hover {
-  color: blue;
+  
 }
 
 .submenu__item a:link,a:visited,a:active {
@@ -89,13 +90,16 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.socials__item_vk {
+.socials__item {
+  list-style-type: none; 
+  margin: 0 5px;
 }
-.socials__item_yt {
+.socials__item a:visited, a:link, a:active {
+  text-decoration: none;
+  color: white;
 }
-.socials__item_fb {
-}
-.socials__item_inst {
+.socials__item a:hover i {
+  border-bottom: 3px solid #4DABF7;
 }
 .footer-section__info {
   margin-right: 10px;
