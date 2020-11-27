@@ -239,8 +239,43 @@ input[type="checkbox"], input[type="radio"] {
 .header {
   background-color: black;
   color: white;
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+}
+
+.header__title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: url("../img/tspOpShadow.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 10%;
+  width: 280px;
+  height: 70px;
+}
+
+.nav-menu {
+  width: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.nav-menu__items {
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,36 +284,14 @@ input[type="checkbox"], input[type="radio"] {
           justify-content: space-between;
 }
 
-.header__title {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 28px;
-  cursor: pointer;
-}
-
-.nav-menu {
-  width: 70%;
-  margin: auto 10px;
-  margin-right: 90px;
-}
-
-.nav-menu__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-}
-
 .nav-menu__item {
   display: block;
   font-size: 20px;
-  margin-left: auto;
   cursor: pointer;
-  border-bottom: 3px solid white;
 }
 
 .nav-menu__item:hover {
-  border-color: #4DABF7;
+  border-bottom: 3px solid #4DABF7;
 }
 
 .topmenu:hover .submenu {
@@ -289,6 +302,10 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 .submenu {
+  background-color: black;
+  opacity: 0.7;
+  margin-left: 20px;
+  padding: 0;
   list-style-type: none;
   position: absolute;
   -webkit-transition: 0.5s;
@@ -332,7 +349,8 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 .footer-section {
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,6 +364,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 .socials {
+  padding: 0;
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;

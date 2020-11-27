@@ -3,37 +3,50 @@
 .header {
   background-color: black;
   color: white;
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  height: 80px;
 
   &__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("../img/tspOpShadow.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     margin-left: 10px;
     margin-right: 10px;
     font-size: 28px;
     cursor: pointer;
+    margin-right: 10%;
+    width: 280px;
+    height: 70px;
   }
 }
 .nav-menu {
   width: 70%;
-  margin: auto 10px;
-  margin-right: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+
 
   &__items {
+    padding: 0;
     display: flex;
-    list-style-type: none;
+    justify-content: space-between;
   }
 
   &__item {
     display: block;
     font-size: 20px;
-    margin-left: auto;
     cursor: pointer;
-    border-bottom: 3px solid white;
 
     &:hover {
-      border-color: #4DABF7;
+      border-bottom: 3px solid #4DABF7;
     }
   }
 }
@@ -44,6 +57,10 @@
   }
 }
 .submenu {
+  background-color: black;
+  opacity: 0.7;
+  margin-left: 20px;
+  padding: 0;
   list-style-type: none;
   position: absolute;
   transition: 0.5s;
@@ -83,7 +100,8 @@
   display: flex;
 }
 .footer-section {
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   display: flex;
   justify-content: space-between;
 
@@ -92,6 +110,7 @@
   }
 }
 .socials {
+  padding: 0;
   width: 20%;
   display: flex;
   justify-content: space-between;
