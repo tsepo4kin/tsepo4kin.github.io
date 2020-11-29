@@ -1,5 +1,9 @@
 @import "./normalize";
 
+body {
+  background-color: gray;
+}
+
 .header {
   background-color: black;
   color: white;
@@ -43,6 +47,7 @@
   &__item {
     display: block;
     font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
 
     &:hover {
@@ -66,6 +71,7 @@
   transition: 0.5s;
   transform: scaleY(0);
   transform-origin: 0 0;
+  overflow: hidden;
 
   &__item {
     a {
@@ -78,13 +84,18 @@
   }
 }
 .main {
+  background-color: white;
   width: 80%;
-  margin: 0 auto;
+  height: 1000px;
+  margin: 0 auto; 
+  padding-bottom: 80px;
 }
-.main-info {
-  width: 50%;
+.info {
 
   &__photos {
+    list-style: none;
+    margin: 0;
+
   }
 
   &__text {
@@ -92,7 +103,15 @@
     margin-left: 40px;
   }
 }
+
+.article {
+  
+}
+
 .footer {
+  position: fixed;
+  top: calc(100vh - 80px);
+  height: 80px;
   background-color: black;
   color: white;
   width: 100%;
