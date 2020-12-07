@@ -147,6 +147,7 @@ body {
     }
 }
 .content {
+  padding-top: 15px;
   background-color: rgba(115, 115, 115, 0.5);
   height: 500px;
   display: flex;
@@ -163,6 +164,48 @@ body {
       height: 400px;
 		}
 }
+
+.my-skills {
+  height: 250px;
+  background-color: rgba(0,0,0, 0.7);
+  padding: 10px;
+
+  &__icons {
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__someI {
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+  }
+
+  &__see-more {
+    display: block;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+  }
+}
+
+.article-title {
+}
+
+.icons {
+
+  &__see-more {
+  }
+}
+.about-skills {
+}
+
+
 .aside-nav {
   display: flex;
   flex-wrap: wrap;
