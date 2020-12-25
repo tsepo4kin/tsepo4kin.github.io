@@ -158,7 +158,7 @@ body {
 		&__wrapper {
       background-color: rgba(0, 0, 255, 0.5);
       width: 80%;
-      height: 400px;
+      
 		}
 
 		&__aside {
@@ -197,9 +197,6 @@ body {
   }
 }
 
-.article-title {
-}
-
 .icons {
 
   &__see-more {
@@ -207,6 +204,111 @@ body {
 }
 .about-skills {
 }
+
+.article {
+
+  &__img {
+  }
+
+  &__title {
+  }
+}
+.article-data {
+
+  &__date {
+  }
+
+  &__text {
+  }
+}
+.achivments {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .main-achivment {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 150, 0, 0.5);
+
+		&__icon {
+      display: block;
+      height: 35px;
+      width: 35px;
+      margin: 5px;
+      background-color: black;
+      border-radius: 50%;
+		}
+
+		&__wrapper {
+      height: 45px;
+		}
+
+		&__text {
+      margin: 0;
+		}
+
+		&__exp {
+      font-size: 12px;
+      font-weight: bold;
+		}
+}
+
+
+
+  .achivments-aside {
+    margin-right: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 45%;
+  }
+  
+  &__progress {
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  &__progress-bar {
+    display: block;
+    background-color: red;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+
+  &__icon {
+    display: block;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    background-color: black;
+  }
+
+
+  .achivments-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+		&__btn {
+      display: block;
+      width: 150px;
+      height: 25px;
+		}
+  }
+
+}
+
+
 
 .aside-title {
   font-size: 16px;
