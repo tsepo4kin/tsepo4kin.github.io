@@ -1,7 +1,7 @@
 @import "./normalize";
 
 body {
-  
+  color: white;
 }
 
 .header {
@@ -191,7 +191,6 @@ body {
 }
 
 .my-skills {
-  height: 250px;
   background-color: rgba(0,0,0, 0.7);
   padding: 10px;
 
@@ -228,11 +227,22 @@ body {
 }
 
 .article {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(0, 150, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
 
   &__img {
+    border: 1px solid black;
+    display: block;
+    width: 150px;
+    height: 70px;
   }
 
   &__title {
+    width: 200px;
+    margin-top: 10px;
   }
 }
 .article-data {
@@ -244,8 +254,6 @@ body {
   }
 }
 .achivments {
-  width: 95%;
-  margin: 0 auto;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
