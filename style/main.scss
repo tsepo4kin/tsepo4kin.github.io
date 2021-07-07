@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+.fix {
+  font-size: 4em;
+}
+
 .header {
   background-color: black;
   color: white;
@@ -203,10 +207,10 @@ body {
   }
 
   &__someI {
+    background-color: black;
     display: block;
     width: 65px;
     height: 65px;
-    background-color: black;
   }
 
   &__see-more {
@@ -232,12 +236,13 @@ body {
   background-color: rgba(0, 150, 0, 0.5);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   &__img {
     border: 1px solid black;
     display: block;
-    width: 150px;
-    height: 70px;
+    width: 160px;
+    height: 90px;
   }
 
   &__title {
@@ -246,14 +251,17 @@ body {
   }
 }
 .article-data {
-
-  &__date {
-  }
+  align-self: flex-end;
+  width: 50%;
 
   &__text {
+    height: 100%;
+    text-align: right;
+    margin: 0;
   }
 }
 .achivments {
+  width: 100%;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
