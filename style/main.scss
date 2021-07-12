@@ -290,6 +290,7 @@ body {
 
 		&__text {
       margin: 0;
+      margin-top: 3px;
 		}
 
 		&__exp {
@@ -317,7 +318,7 @@ body {
   &__progress-bar {
     display: block;
     background-color: red;
-    width: 25%;
+    width: 75%;
     height: 100%;
     box-sizing: border-box;
     border: 1px solid red;
