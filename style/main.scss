@@ -1,3 +1,149 @@
 @import "./normalize";
 
+body {
+  width: 1024px;
+  margin: 0 auto;
+}
 
+hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #BFBFBF; /* Цвет линии для остальных браузеров */
+  background-color: #BFBFBF; /* Цвет линии для браузера Firefox и Opera */
+  height: 3px; /* Толщина линии */
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  margin-bottom: 0.8em;
+}
+
+.header {
+
+  &__name {
+    font-size: 64px;
+    font-weight: lighter;
+  }
+
+  &__position {
+    font-size: 18px;
+  }
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  &__aside {
+    border: 1px solid black;
+    width: 250px;
+  }
+
+  &__main {
+    border: 1px solid black;
+    width: 750px;
+  }
+}
+.projects {
+
+  &__title {
+  }
+}
+.project-item {
+
+  &__title {
+  }
+
+  &__link {
+  }
+
+  &__skills {
+  }
+
+  &__description {
+  }
+}
+.experience {
+
+  &__title {
+  }
+}
+.experience-item {
+
+  &__title {
+  }
+
+  &__link {
+  }
+
+  &__skills {
+  }
+
+  &__description {
+  }
+}
+.education {
+
+  &__title {
+  }
+}
+.education-item {
+
+  &__title {
+  }
+
+  &__link {
+  }
+
+  &__skills {
+  }
+
+  &__description {
+  }
+}
+.contacts {
+
+  &__title {
+  }
+
+  &__adress {
+  }
+
+  &__phone {
+  }
+
+  &__links {
+  }
+
+  &__email {
+  }
+}
+.skills {
+
+  &__title {
+  }
+
+  &__items {
+  }
+}
+.languages {
+
+  &__title {
+  }
+
+  &__levels {
+  }
+}
+.about-me {
+
+  &__title {
+  }
+
+  &__description {
+  }
+}
