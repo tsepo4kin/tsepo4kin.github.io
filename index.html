@@ -8,17 +8,20 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="header__name">Kirill <br> Tseplyaev</h1>
-      <hr>
+      <div class="header__wrapper">
+        <h1 class="header__name">Kirill <br> Tseplyaev</h1>
+        <img src="" alt="photo" class="header__photo">
+      </div>
+      <hr class="main-devider">
       <h2 class="header__position">FRONTEND DEVELOPER</h2>
-      <hr>
+      <hr class="main-devider">
     </header>
     <main class="content">
       <section class="content__aside">
         <article class="contacts">
           <i class="contacts__icon"></i>
-          <h3 class="contacts__title">CONTACTS</h3>
-          <hr>
+          <h2 class="contacts__title">CONTACTS</h2>
+          <hr class="main-devider">
           <p class="contacts__adress">
             Adress: <br>
             Moscow, Russia
@@ -36,6 +39,12 @@
                 LinkedIn
               </a>
             </li>
+            <li class="contacts__links__headhunter">
+              <a href="https://github.com/tsepo4kin">
+                <i class="contacts__links__headhunter__icon"></i>  
+                headhunter
+              </a>
+            </li>
             <li class="contacts__links__github">
               <a href="https://github.com/tsepo4kin">
                 <i class="contacts__links__github__icon"></i>  
@@ -51,25 +60,25 @@
 
         <article class="skills">
           <i class="skills__icon"></i>
-          <h3 class="skills__title">SKILLS</h3>
-          <hr>
+          <h2 class="skills__title">SKILLS</h2>
+          <hr class="main-devider">
           <p class="skills__items">JavaScript, TypeScript, Vue, Vuex, Vue-router, Jest, HTML, CSS, Git, Docker, GraphQL, Node.js</p>
         </article>
 
         <article class="languages">
           <i class="languages__icon"></i>
-          <h3 class="languages__title">LANGUAGES</h3>
-          <hr>
+          <h2 class="languages__title">LANGUAGES</h2>
+          <hr class="main-devider">
           <p class="languages__levels">
-            English - intermediate <br> 
+            English - intermediate(B1) <br> 
             Russian - native
           </p>
         </article>
 
         <article class="about-me">
           <i class="about-me__icon"></i>
-          <h3 class="about-me__title">ABOUT ME</h3>
-          <hr>
+          <h2 class="about-me__title">ABOUT ME</h2>
+          <hr class="main-devider">
           <p class="about-me__description"></p>
         </article>
       </section>
@@ -78,53 +87,85 @@
         <article class="projects">
           <i class="projects__icon"></i>
           <h2 class="projects__title">PROJECTS</h2>
-          <hr>
+          <hr class="main-devider">
           <div class="project-item">
-            <h3 class="project-item__title">Projects</h3>
-            <a href="" class="project-item__link">GitHub</a>
-            <p class="project-item__skills">
-              JS, HTML, CSS
-            </p>
+            <h3 class="project-item__title">tsp-to-do-vk</h3>
+            <a href="https://github.com/tsepo4kin/tsp-to-do-vk" class="project-item__link">GitHub</a>
+            
             <p class="project-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
+              Простая тудушка с возможностью редактирования добавленных задач, добавлением списков задач. В будущем планируется интеграция с вк-апи.
+            </p>
+
+            <h4 class="project-item__skills__title">SKILLS</h4>
+            <p class="project-item__skills">
+              Vue, Vuetify, HTML, CSS, JS, localstorage
+            </p>
+            
+          </div>
+
+          <div class="project-item">
+            <h3 class="project-item__title">Weather</h3>
+            <a href="https://github.com/tsepo4kin/weather" class="project-item__link">GitHub</a>
+            <p class="project-item__description">
+              Приложение, которое показывает погоду в любом городе мира, для ру городов присутсвует автокомплит. В планах прикрутить maps api или голосовой поиск.
+            </p>
+
+            <h4 class="project-item__skills__title">SKILLS</h4>
+            <p class="project-item__skills">
+              Vue, Vuetify, openweathermap-api, HTML, CSS, JS 
+            </p>
+            
+          </div>
+
+          <div class="project-item">
+            <h3 class="project-item__title">Covid-19</h3>
+            <a href="https://github.com/tsepo4kin/covid-19" class="project-item__link">GitHub</a>
+            <p class="project-item__description">
+              Приложение, показывающее ковидную статистику для разных стран в виде графиков.
+            </p>
+
+            <h4 class="project-item__skills__title">SKILLS</h4>
+            <p class="project-item__skills">
+              Vue, vuex, vue-router, vuetify, chart.js, HTML, CSS, JS, axios
             </p>
           </div>
 
           <div class="project-item">
-            <h3 class="project-item__title">Projects</h3>
-            <a href="" class="project-item__link">GitHub</a>
-            <p class="project-item__skills">
-              JS, HTML, CSS
-            </p>
+            <h3 class="project-item__title">Что-то с тс, тестами и докером, возможно графкл</h3>
+            <a href="https://github.com/tsepo4kin/covid-19" class="project-item__link">GitHub</a>
             <p class="project-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
+              Приложение, показывающее ковидную статистику для разных стран в виде графиков.
+            </p>
+            <h4 class="project-item__skills__title">SKILLS</h4>
+            <p class="project-item__skills">
+              Vue, vuex, vue-router, vuetify, chart.js, HTML, CSS, JS, axios
             </p>
           </div>
 
-          <div class="project-item">
-            <h3 class="project-item__title">Projects</h3>
-            <a href="" class="project-item__link">GitHub</a>
-            <p class="project-item__skills">
-              JS, HTML, CSS
-            </p>
-            <p class="project-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
-            </p>
-          </div>
         </article>
 
         <article class="experience">
           <i class="experience__icon"></i>
           <h2 class="experience__title">EXPERIENCE</h2>
-          <hr>
+          <hr class="main-devider">
           <div class="experience-item">
-            <h3 class="experience-item__title">Projects</h3>
-            <a href="" class="experience-item__link">GitHub</a>
+            <h3 class="experience-item__title">HTML Academy</h3>
             <p class="experience-item__skills">
-              JS, HTML, CSS
+              HTML, CSS, Основы JS
             </p>
-            <p class="experience-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
+          </div>
+
+          <div class="experience-item">
+            <h3 class="experience-item__title">Learn JavaScript, MDN, YouTube</h3>
+            <p class="experience-item__skills">
+              JS, Vue, Vuex, Axios
+            </p>
+          </div>
+
+          <div class="experience-item">
+            <h3 class="experience-item__title">Udemy, CourseHunter, Sharewood</h3>
+            <p class="experience-item__skills">
+              TypeScript, Jest, Docker, GraphQL
             </p>
           </div>
         </article>
@@ -132,40 +173,17 @@
         <article class="education">
           <i class="education__icon"></i>
           <h2 class="education__title">EDUCATION</h2>
-          <hr>
+          <hr class="main-devider">
           <div class="education-item">
-            <h3 class="education-item__title">Projects</h3>
-            <a href="" class="education-item__link">GitHub</a>
-            <p class="education-item__skills">
-              JS, HTML, CSS
+            <h3 class="education-item__title">Bachelor, RTU MIREA</h3>
+            <p class="education-item__date">
+              Sep 2018 - Jun 2022
             </p>
             <p class="education-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
+              Electronics and nanoelectronics, Faculty of Physics and Technology
             </p>
           </div>
 
-          <div class="education-item">
-            <h3 class="education-item__title">Projects</h3>
-            <a href="" class="education-item__link">GitHub</a>
-            <p class="education-item__skills">
-              JS, HTML, CSS
-            </p>
-            <p class="education-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
-            </p>
-          </div>
-
-          <div class="education-item">
-            <h3 class="education-item__title">Projects</h3>
-            <a href="" class="education-item__link">GitHub</a>
-            <p class="education-item__skills">
-              JS, HTML, CSS
-            </p>
-            <p class="education-item__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, corrupti.
-            </p>
-          </div>
-        </article>
       </section>
 
     </main>
