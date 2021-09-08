@@ -1,0 +1,231 @@
+@import "./normalize";
+
+body {
+  margin: 0 auto;
+}
+
+.main-devider {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #9f4f4f; /* Цвет линии для остальных браузеров */
+  background-color: #9f4f4f; /* Цвет линии для браузера Firefox и Opera */
+  height: 3px; /* Толщина линии */
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  margin-bottom: 0.8em;
+}
+.header {
+  width: 1024px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #e1e1e1;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    margin: auto 0;
+    width: 130px;
+    height: 150px;
+    border: 1px solid black;
+  }
+
+  &__name {
+    font-size: 64px;
+    font-weight: lighter;
+  }
+
+  &__position {
+    font-size: 18px;
+  }
+}
+.content {
+  width: 1054px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__aside {
+    background-color: #F4F4F4;
+    width: 250px;
+    padding: 15px;
+  }
+
+  &__main {
+    padding: 15px;
+    width: 750px;
+  }
+
+}
+.contacts {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__adress {
+  }
+
+  &__phone {
+  }
+
+  &__links {
+    padding: 0;
+    list-style-type: none;
+    &__github {
+      font-size: 20px;
+    }
+
+    &__linkedin {
+      font-size: 20px;
+    }
+
+    &__headhunter {
+      font-size: 20px;
+
+      &__icon {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        overflow: visible;
+        background-image: url("../hhlogo.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+
+  &__email {
+  }
+}
+.skills {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__items {
+  }
+}
+.languages {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__levels {
+  }
+}
+.about-me {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__description {
+  }
+}
+.projects {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+}
+.project-item {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #BFBFBF;
+  }
+
+  &__link {
+    width: 130px;
+    align-self: center;
+    color: blue;
+  }
+
+  &__skills {
+    margin-left: auto;
+    width: 500px;
+    &__title {
+      width: 130px;
+    }
+  }
+
+  &__description {
+    margin-left: auto;
+    width: 500px;
+  }
+}
+.experience {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+}
+.experience-item {
+
+  &__title {
+  }
+
+  &__skills {
+  }
+}
+.education {
+
+  &__icon {
+  }
+
+  &__title {
+  }
+}
+.education-item {
+
+  &__title {
+  }
+
+  &__date {
+  }
+
+  &__description {
+  }
+}
