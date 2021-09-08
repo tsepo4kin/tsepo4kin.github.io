@@ -11,6 +11,19 @@ body {
   height: 3px; /* Толщина линии */
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
 h1 {
   margin-bottom: 0.5em;
 }
@@ -82,7 +95,30 @@ h3 {
   }
 
   &__links {
+    padding: 0;
     list-style-type: none;
+    &__github {
+      font-size: 20px;
+    }
+
+    &__linkedin {
+      font-size: 20px;
+    }
+
+    &__headhunter {
+      font-size: 20px;
+
+      &__icon {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        overflow: visible;
+        background-image: url("../hhlogo.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
   }
 
   &__email {
@@ -142,6 +178,7 @@ h3 {
   &__link {
     width: 130px;
     align-self: center;
+    color: blue;
   }
 
   &__skills {
